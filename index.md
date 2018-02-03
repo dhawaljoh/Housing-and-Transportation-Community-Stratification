@@ -16,4 +16,4 @@ Also, availability of public transport stops also affects a county's population.
 - [California Counties](http://scottpham.com/california-counties/)
 
 ## Visualization
-- [Website](index.html)
+- [Website](visualization.html)
