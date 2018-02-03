@@ -8,9 +8,12 @@ Also, availability of public transport stops also affects a county's population.
 
 ## Data Sources
  - [Dataset](https://data.chhs.ca.gov/dataset/walkable-distance-public-transit-2008-2012) - CA Government
- - [Maizlish, N., D. Tran, and D. M. Bustamante-Zamora. "Healthy communities data and indicators project: how-to manual and illustrative guide. Richmond and San Francisco (CA): California Department of Public Health Office of Health Equity and University of California." Institute for Health & Aging (2014).](/files/hcirailferrybus51narrativeandexamples11-26-13socalmtcsac.pdf)
+ - [Maizlish, N., D. Tran, and D. M. Bustamante-Zamora. "Healthy communities data and indicators project: how-to manual and illustrative guide. Richmond and San Francisco (CA): California Department of Public Health Office of Health Equity and University of California." Institute for Health & Aging (2014).](files/hcirailferrybus51narrativeandexamples11-26-13socalmtcsac.pdf)
 
 ## References
 - [D3](https://d3js.org/)
 - [California Population Density](https://bl.ocks.org/mbostock/5562380)
 - [California Counties](http://scottpham.com/california-counties/)
+
+## Visualization
+- [Website](index.html)
