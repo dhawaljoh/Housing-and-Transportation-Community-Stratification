@@ -1,12 +1,16 @@
 ## Objective
 
-<center>
+<p align="justify">
 The idea is to show what fraction the population of a county (in California) lives close to transit stops (within 1/2 mile/walking distance), broken down by ethnicities. One would expect that the white population lives further away from transit stops than latinos and African Americans given their respective socio-economic statuses. 
+</p>
 
+<p align="justify">
 Another way to think about it is that as counties develop, the transit stops are more dense in areas with non-white populations owing to high ridership. But, in a county like San Francisco, this is untrue, since it's a densely packed city with lots and lots of transit stops. Furthermore, there have been studies that have tied public transport to mental and physical health, happiness, and other human factors. 
+</p>
 
+<p align="justify">
 Also, availability of public transport stops also affects a county's population. This might help us understand how public transportation (nerve of a city) affects housing/settlements and how to design transportation systems in a more cost-effective, smart, and useful way.
-</center>
+</p>
 
 ## Visualization
 - [Website](files/visualization.html)
