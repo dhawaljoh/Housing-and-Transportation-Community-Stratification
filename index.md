@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+## Objective
 
-You can use the [editor on GitHub](https://github.com/dhawaljoh/CMPS263/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+The idea is to show what fraction the population of a county (in California) lives close to transit stops (within 1/2 mile/walking distance), broken down by ethnicities. One would expect that the white population lives further away from transit stops than latinos and African Americans given their respective socio-economic statuses. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Another way to think about it is that as counties develop, the transit stops are more dense in areas with non-white populations owing to high ridership. But, in a county like San Francisco, this is untrue, since it's a densely packed city with lots and lots of transit stops. Furthermore, there have been studies that have tied public transport to mental and physical health, happiness, and other human factors. 
 
-### Markdown
+Also, availability of public transport stops also affects a county's population. This might help us understand how public transportation (nerve of a city) affects housing/settlements and how to design transportation systems in a more cost-effective, smart, and useful way.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Data Sources
+ - [Dataset](https://data.chhs.ca.gov/dataset/walkable-distance-public-transit-2008-2012) - CA Government
+ - [Maizlish, N., D. Tran, and D. M. Bustamante-Zamora. "Healthy communities data and indicators project: how-to manual and illustrative guide. Richmond and San Francisco (CA): California Department of Public Health Office of Health Equity and University of California." Institute for Health & Aging (2014).](/files/hcirailferrybus51narrativeandexamples11-26-13socalmtcsac.pdf)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dhawaljoh/CMPS263/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## References
+- [D3](https://d3js.org/)
+- [California Population Density](https://bl.ocks.org/mbostock/5562380)
+- [California Counties](http://scottpham.com/california-counties/)
