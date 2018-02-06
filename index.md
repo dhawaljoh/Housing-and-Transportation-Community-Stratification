@@ -15,6 +15,24 @@ Also, availability of public transport stops also affects a county's population.
 ## Visualization
 - [Website](files/visualization.html)
 
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table>
+
 ## Creators
 - Created by Dhawal Joharapurkar in collaboration with Prof. Suresh Lodha
 - CMPS263 Data Discovery and Visualization, Winter 2018
