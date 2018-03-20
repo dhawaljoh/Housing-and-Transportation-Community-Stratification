@@ -37,11 +37,11 @@ def parse_data(data_file, ALL_COUNTIES, ethnicity):
 
 def main():
 	ALL_COUNTIES = get_counties("ca-albers-id.ndjson")
-	# parse_data(DATA_FILE, ALL_COUNTIES, ethnicity="Asian")
+	parse_data(DATA_FILE, ALL_COUNTIES, ethnicity="Asian")
 	# parse_data(DATA_FILE, ALL_COUNTIES, ethnicity="AfricanAm")
 	# parse_data(DATA_FILE, ALL_COUNTIES, ethnicity="Latino")
 	# parse_data(DATA_FILE, ALL_COUNTIES, ethnicity="White")
-	parse_data(DATA_FILE, ALL_COUNTIES, ethnicity="Total")
+	# parse_data(DATA_FILE, ALL_COUNTIES, ethnicity="Total")
 
 if __name__ == '__main__':
 	main()
