@@ -2,6 +2,7 @@ import ast
 import csv
 import json
 import os
+import random
 import sys
 
 DATA_DIR = os.path.join("data")
@@ -21,10 +22,11 @@ def parse_data(data_file, ALL_COUNTIES, ethnicity):
 			if row['race_eth_name'] == ethnicity:
 				if row['region_name']=="Bay Area" and len(row['geotypevalue']) >= 7: #and not row['geotypevalue'].endswith("00"):
 					# print row['geotypevalue'], row["p_trans_acc"]
+					# if float(row['p_trans_acc']) > 65 and float(row['p_trans_acc']) < 90.0:
+						# data += [[str(random.randrange(0,20)), "060" + str(row['geotypevalue']).lstrip('0')]]
+					# else:
 					data += [[str(row['p_trans_acc']), "060" + str(row['geotypevalue']).lstrip('0')]]
 					COUNTIES_ENCOUNTERED.append("060" + str(row['geotypevalue']).lstrip('0'))
-					# data["percentage"] = str(row['p_trans_acc'])
-					# data["id"] = str(row['geotypevalue']).lstrip('0')
 
 		COUNTIES_NOT_ENCOUNTERED = list(set(ALL_COUNTIES) - set(COUNTIES_ENCOUNTERED))
 		for county in COUNTIES_NOT_ENCOUNTERED:
@@ -37,10 +39,10 @@ def parse_data(data_file, ALL_COUNTIES, ethnicity):
 
 def main():
 	ALL_COUNTIES = get_counties("ca-albers-id.ndjson")
-	parse_data(DATA_FILE, ALL_COUNTIES, ethnicity="Asian")
+	# parse_data(DATA_FILE, ALL_COUNTIES, ethnicity="Asian")
 	# parse_data(DATA_FILE, ALL_COUNTIES, ethnicity="AfricanAm")
 	# parse_data(DATA_FILE, ALL_COUNTIES, ethnicity="Latino")
-	# parse_data(DATA_FILE, ALL_COUNTIES, ethnicity="White")
+	parse_data(DATA_FILE, ALL_COUNTIES, ethnicity="White")
 	# parse_data(DATA_FILE, ALL_COUNTIES, ethnicity="Total")
 
 if __name__ == '__main__':
